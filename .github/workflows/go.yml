@@ -21,7 +21,7 @@ jobs:
       with:
         go-version: '1.20'
 
-    - name: Inicia Banco
+    - name: Inicia Bancos
       run: docker compose up -d postgres  
 
     - name: Lint
